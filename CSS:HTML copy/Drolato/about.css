@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Grandstander", cursive;
+}
+.header {
+  color: #0081a7;
+  text-shadow: 5px 1px 3px violet;
+  display: block;
+  font-size: 80px;
+  background-image: url(./heading\ picture.jpg);
+  background-repeat: round;
+  height: 400px;
+  text-align: center;
+}
+.sub_links {
+  text-align: center;
+  position: relative;
+  top: 0px;
+  font-size: 40px;
+  display: block;
+}
+.link {
+  color: black;
+}
+.link:hover {
+  font-size: 45px;
+  color: green;
+}
+.about_us {
+  font-size: 35px;
+  position: relative;
+  top: 75px;
+  background-image: url(./drone.jpeg);
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 440px;
+}
+.text {
+  text-shadow: none;
+  color: #0081a7;
+  font-size: 20px;
+}

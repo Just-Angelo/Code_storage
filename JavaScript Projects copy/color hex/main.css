@@ -1,0 +1,29 @@
+body {
+  min-height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.color_button {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-transform: capitalize;
+  padding: 0.5rem;
+  cursor: pointer;
+  outline: none;
+  border: 3px solid orange;
+  border-radius: 3px;
+}
+
+.color_button:hover {
+  background: black;
+}
+
+.hex {
+  font-size: 3rem;
+}
+
+.hexcolor {
+  text-transform: capitalize;
+}

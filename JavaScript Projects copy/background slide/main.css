@@ -1,0 +1,37 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("mountain.jpg") center/cover no-repeat;
+}
+.backgrounds {
+  background: url("pic_1.jpg") center/cover no-repeat;
+  flex: 0 0 80%;
+  min-height: 70vh;
+}
+.button:hover {
+  cursor: pointer;
+}
+
+.button {
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 3px solid green;
+  border-radius: 20%;
+}
+
+#prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(40%, 0%);
+}
+
+#next {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-190%, 0%);
+}

@@ -1,0 +1,25 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: lightblue;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.container {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 7px;
+  background: white;
+}
+
+.send_button {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  cursor: pointer;
+}
+
+.message_out {
+  color: blue;
+}
